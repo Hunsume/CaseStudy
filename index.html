@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ooibanoi</title>
+    <link rel="stylesheet" href="summer.css">
+
+</head>
+<body onload="render()">
+<div id="picture">
+    <div style="padding-left: 650px; padding-top: 50px " >
+        <button  onclick="isPlayer()">1vs1</button>
+        <button  style="margin-left: 30px" onclick="isBot()">vsBot</button>
+        <button  style="margin-left: 30px" onclick="gameLoop()">start</button>
+    </div>
+    <canvas style="border: solid 1px black" id="canvas" width="600" height="400"></canvas>
+</div>
+
+<script src="pingpongtest.js"></script>
+
+</body>
+</html>
